@@ -18,7 +18,8 @@ namespace HelloWord
                 Console.WriteLine("\tElige que datos quieres ver:\n");
                 Console.WriteLine("1.- Tipos de datos");
                 Console.WriteLine("2.- Conversion de Datos");
-                Console.WriteLine("3.- Salida:");
+                Console.WriteLine("3.- Constantes");
+                Console.WriteLine("4.- Salida:");
                 Console.WriteLine("Elige que opción:");
                 int opcion = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("====================================");
@@ -33,6 +34,9 @@ namespace HelloWord
                         Console.WriteLine("====================================");
                         break;
                     case 3:
+                        new Constants().ShowConstants();
+                        break;
+                    case 4:
                         exit = true;
                         break;
                     default:
