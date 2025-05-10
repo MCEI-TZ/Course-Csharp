@@ -23,19 +23,19 @@ namespace HelloWord
             Console.WriteLine(miInt);
 
             // -----------------------------------------
-            // Conversion Implicita
+            // Conversion Implicita (Conversion dentrol de otra cuando es mayor)
             int num = 123456;
             long numg = num;
             Console.WriteLine(numg);
 
             // -----------------------------------------
-            // Conversion tipo
+            // Conversion tipo (Entero - texto)
             string miString = miDouble.ToString();
             Console.WriteLine(miString);
 
             // ----------------------------------------------
             // Parsing
-            int.Parse(miString);
+            double.Parse(miString);
             Console.WriteLine(miString);
         }
     }

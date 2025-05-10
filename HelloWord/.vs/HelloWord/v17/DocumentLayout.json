@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\MexzC\\OneDrive\\Documentos\\Course_CSharp\\HelloWord\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{033EA514-DF1D-47DA-B287-663A7D70EF28}|HelloWord\\HelloWord.csproj|c:\\users\\mexzc\\onedrive\\documentos\\course_csharp\\helloword\\helloword\\convertions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033EA514-DF1D-47DA-B287-663A7D70EF28}|HelloWord\\HelloWord.csproj|solutionrelative:helloword\\convertions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{033EA514-DF1D-47DA-B287-663A7D70EF28}|HelloWord\\HelloWord.csproj|c:\\users\\mexzc\\onedrive\\documentos\\course_csharp\\helloword\\helloword\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{033EA514-DF1D-47DA-B287-663A7D70EF28}|HelloWord\\HelloWord.csproj|solutionrelative:helloword\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{033EA514-DF1D-47DA-B287-663A7D70EF28}|HelloWord\\HelloWord.csproj|c:\\users\\mexzc\\onedrive\\documentos\\course_csharp\\helloword\\helloword\\typesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{033EA514-DF1D-47DA-B287-663A7D70EF28}|HelloWord\\HelloWord.csproj|solutionrelative:helloword\\typesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033EA514-DF1D-47DA-B287-663A7D70EF28}|HelloWord\\HelloWord.csproj|c:\\users\\mexzc\\onedrive\\documentos\\course_csharp\\helloword\\helloword\\convertions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033EA514-DF1D-47DA-B287-663A7D70EF28}|HelloWord\\HelloWord.csproj|solutionrelative:helloword\\convertions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Convertions.cs",
               "DocumentMoniker": "C:\\Users\\MexzC\\OneDrive\\Documentos\\Course_CSharp\\HelloWord\\HelloWord\\Convertions.cs",
               "RelativeDocumentMoniker": "HelloWord\\Convertions.cs",
               "ToolTip": "C:\\Users\\MexzC\\OneDrive\\Documentos\\Course_CSharp\\HelloWord\\HelloWord\\Convertions.cs",
               "RelativeToolTip": "HelloWord\\Convertions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T21:25:46.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TypesData.cs",
               "DocumentMoniker": "C:\\Users\\MexzC\\OneDrive\\Documentos\\Course_CSharp\\HelloWord\\HelloWord\\TypesData.cs",
               "RelativeDocumentMoniker": "HelloWord\\TypesData.cs",
@@ -56,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MexzC\\OneDrive\\Documentos\\Course_CSharp\\HelloWord\\HelloWord\\Program.cs",
               "RelativeDocumentMoniker": "HelloWord\\Program.cs",
               "ToolTip": "C:\\Users\\MexzC\\OneDrive\\Documentos\\Course_CSharp\\HelloWord\\HelloWord\\Program.cs",
               "RelativeToolTip": "HelloWord\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCAAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T20:37:10.446Z",
               "EditorCaption": ""
