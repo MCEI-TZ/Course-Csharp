@@ -11,13 +11,30 @@ namespace Decisions
         static void Main(string[] args)
         {
             Console.WriteLine("Escribe la temperatura de tu págis");
-            int temp = Convert.ToInt32(Console.ReadLine());
+            string temp = Console.ReadLine();
+            int temp1;
+            bool success = int.TryParse(temp, out temp1);
 
-            if (temp == 0) {
+            // Example of if
+            if (!success)
+            {
+                Console.WriteLine("Escribe un número");
+            }
+
+
+            // Else if
+            if (temp1 == 0) {
                 Console.WriteLine("Esta en equilibrio");
             }
-            Console.WriteLine("Nice");
-            // Example of if
+            
+            else if(temp1 > 30)
+            {
+                Console.WriteLine("Esta caliente");
+            }
+            else if(temp1 < 0)
+            {
+                Console.WriteLine("Esta frio");
+            }
         }
     }
 }
