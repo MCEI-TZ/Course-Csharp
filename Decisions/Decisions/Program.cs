@@ -35,6 +35,27 @@ namespace Decisions
             {
                 Console.WriteLine("Esta frio");
             }
+
+            // Switch Example
+            int opcion = 2;
+
+            switch (opcion)
+            {
+                case 1:
+                    Console.WriteLine("Opcion 1");
+                    break;
+                case 2:
+                    Console.WriteLine("Opcion 2");
+                    break;
+                case 3:
+                    Console.WriteLine("Opcion 3");
+                    break;
+            }
+
+            // Ternary ops
+
+            bool opcion1 = true;
+            Console.WriteLine(opcion1 ? "Verdad" : "Falso");
         }
     }
 }
