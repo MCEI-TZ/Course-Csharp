@@ -192,7 +192,12 @@ publish/
 # in these scripts will be unencrypted
 PublishScripts/
 
-*.vs/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
 
 # NuGet Packages
 *.nupkg
