@@ -29,5 +29,23 @@ namespace HelloWord
         public int WriteSomething3(int num) { 
             return num;
         }
+
+        // Manejo de TryCatch
+        public void UseTryCatch()
+        {
+            try
+            {
+                Console.WriteLine("Insert a text for make a exception");
+                string num1 = Console.ReadLine();
+                int num1c = int.Parse(num1);
+                int result = num1c * num1c;
+            }
+            catch (Exception ex) {
+                Console.WriteLine("Very well you make an exception but we control the error with the try catch so you can see the error until this point");
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.ToString());
+            }
+            
+        }
     }
 }
