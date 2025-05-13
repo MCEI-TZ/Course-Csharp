@@ -30,6 +30,12 @@ namespace Loops
 
             // Loop While
 
+            bool exit = true;
+
+            while (exit) {
+                Console.WriteLine("Es verdadero");
+                exit = false;
+            }
 
         }
     }
