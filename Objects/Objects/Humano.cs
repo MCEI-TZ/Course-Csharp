@@ -9,6 +9,7 @@ namespace Objects
     // Class
     public class Humano
     {
+        // Void Constructor
         public Humano()
         {
         }
@@ -19,12 +20,20 @@ namespace Objects
         public string old {  get; set; }
         public string gender { get; set; }
 
+        // Constructor with args
         public Humano(string name, string lasname, string old, string gender)
         {
             this.name = name;
             this.lasname = lasname;
             this.old = old;
             this.gender = gender;
+        }
+
+        // Overloading of a constructor
+        public Humano(string name, string lasname)
+        {
+            this.name = name;
+            this.lasname = lasname;
         }
         
         public void ShowHuman()

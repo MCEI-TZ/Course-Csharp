@@ -23,6 +23,10 @@ namespace Objects
             // Constructor with args
             Humano humano1 = new Humano("John", "Doe", "23", "Male");
             humano1.ShowHuman();
+            Console.WriteLine("=========================================");
+            // Overloading constructor
+            Humano humano2 = new Humano("Michel", "Johson");
+            humano2.ShowHuman();
         }
     }
 }
