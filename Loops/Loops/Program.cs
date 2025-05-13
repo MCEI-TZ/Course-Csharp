@@ -37,6 +37,22 @@ namespace Loops
                 exit = false;
             }
 
+            // Break and Continue
+            Console.WriteLine("=================================");
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    continue;
+                }
+                if (i== 9)
+                {
+                    break;
+                }
+                Console.WriteLine(i);
+            }
+
         }
     }
 }
