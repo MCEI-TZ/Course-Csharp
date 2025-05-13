@@ -11,13 +11,24 @@ namespace Loops
         static void Main(string[] args)
         {
             // Loop for
-            int numincrement = 0;
-
             for (int i = 0; i < 10; i++)
             {
-                numincrement = i;
-                Console.WriteLine(numincrement);
+                Console.WriteLine(i);
             }
+
+            // Loop do while
+            Console.WriteLine("=================================");
+            int num = 5;
+            do
+            {
+                num++;
+                Console.WriteLine(num);
+            }
+            while (num <5);
+
+            Console.WriteLine("=================================");
+
+            // Loop While
 
 
         }
