@@ -13,10 +13,10 @@ namespace Objects
             // Calling the class Human
             // Void Constructor call
             Humano humano = new Humano();
-            humano.name = "test";
-            humano.lasname = "test";
-            humano.gender = "Male";
-            humano.old = "13";
+            humano.Name = "test";
+            humano.Lasname = "test";
+            humano.Gender = "Male";
+            humano.Old = "13";
             humano.ShowHuman();
 
             Console.WriteLine("=========================================");

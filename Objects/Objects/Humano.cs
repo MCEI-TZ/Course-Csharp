@@ -15,33 +15,34 @@ namespace Objects
         }
 
         //Miembro de Variables
-        public string name { get; set; }
-        public string lasname { get; set; }
-        public string old {  get; set; }
-        public string gender { get; set; }
+        // Encapsulation
+        public string Name { get; set; }
+        public string Lasname { get; set; }
+        public string Old { get; set; }
+        public string Gender { get; set; }
 
         // Constructor with args
         public Humano(string name, string lasname, string old, string gender)
         {
-            this.name = name;
-            this.lasname = lasname;
-            this.old = old;
-            this.gender = gender;
+            Name = name;
+            Lasname = lasname;
+            Old = old;
+            Gender = gender;
         }
 
         // Overloading of a constructor
         public Humano(string name, string lasname)
         {
-            this.name = name;
-            this.lasname = lasname;
+            Name = name;
+            Lasname = lasname;
         }
-        
+
         public void ShowHuman()
         {
-            Console.WriteLine(this.name );
-            Console.WriteLine(this.lasname);
-            Console.WriteLine(this.old);
-            Console.WriteLine(this.gender);
+            Console.WriteLine(Name);
+            Console.WriteLine(Lasname);
+            Console.WriteLine(Old);
+            Console.WriteLine(Gender);
         }
 
     }
