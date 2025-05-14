@@ -35,6 +35,35 @@ namespace Arrays
                 Console.WriteLine(item);
             }
 
+            // Matrix (Arrays of Arrays)
+            // Array 2D
+            int[,] matrix2d = new int[,] { { 1, 2, 3, 4, 5, 6, 8 }, { 9, 2, 3, 4, 2, 1, 2 } };
+
+            for (int i = 0; i < matrix2d.GetLength(0); i++)
+            {
+                for (int j = 0; j < matrix2d.GetLength(1); j++)
+                {
+                    Console.WriteLine("{0}{1} = {2}", i, j, matrix2d[i, j]);
+                }
+            }
+
+            Console.WriteLine("=======================================================================");
+            //Array 3D
+            int[,,] matrix3d = new int[,,] { { { 1, 2, 3, 4, 5, 6, 8 }, { 1, 2, 3, 4, 5, 6, 8 } }, { { 1, 2, 3, 4, 5, 6, 8 }, { 1, 2, 3, 4, 5, 6, 8 } } };
+
+            for (int i = 0; i < matrix3d.GetLength(0); i++)
+            {
+                for (int j = 0; j < matrix3d.GetLength(1); j++)
+                {
+                    for (global::System.Int32 k = 0; k < matrix3d.GetLength(2); k++)
+                    {
+                        Console.WriteLine("{0}{1}{2} = {3}", i, j, k, matrix3d[i, j, k]);
+
+                    }
+                }
+            }
+
+
         }
     }
 }
