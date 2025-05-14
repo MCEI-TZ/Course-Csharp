@@ -29,6 +29,12 @@ namespace Arrays
             // Another way
             int[] numArray3 = new int[] { 13, 12, 32, 32, 32, 34, 324, 23 };
 
+            // Loop for each
+            foreach (var item in numArray3)
+            {
+                Console.WriteLine(item);
+            }
+
         }
     }
 }
