@@ -22,6 +22,13 @@ namespace Arrays
             // Use of leng for know how many data have the array
             Console.WriteLine(numArray.Length);
 
+            // Array defineted
+
+            int[] numArray2 = { 13, 12, 32, 32, 32, 34, 324, 23 };
+
+            // Another way
+            int[] numArray3 = new int[] { 13, 12, 32, 32, 32, 34, 324, 23 };
+
         }
     }
 }
