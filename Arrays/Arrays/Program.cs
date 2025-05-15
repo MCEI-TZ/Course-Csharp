@@ -63,6 +63,28 @@ namespace Arrays
                 }
             }
 
+            // ------------------------------------------------------------
+            // Iregular Array
+            // First way to declare an irregular array
+            int[][] iregular = new int[3][];
+            iregular[0] = new int[5];
+            iregular[1] = new int[3];
+            iregular[2] = new int[2];
+
+            iregular[0] = new int[] { 1, 2, 3, 4, 5 };
+            iregular[1] = new int[] { 2, 1 };
+            iregular[2] = new int[] { 3, 2 };
+            // Second way to declare an irregular array
+            int[][] jregular = new int[][]
+            {
+                new int[] { 1, 2, 3, 4, 5 },
+                new int[] { 2, 1 },
+                new int[] { 3, 2 }
+            };
+
+            // print the iregulardata
+            Console.WriteLine(jregular[0][0]);
+
 
         }
     }
