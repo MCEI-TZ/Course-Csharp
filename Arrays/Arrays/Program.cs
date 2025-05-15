@@ -82,8 +82,16 @@ namespace Arrays
                 new int[] { 3, 2 }
             };
 
+            Console.WriteLine("-------------------------------------------------");
             // print the iregulardata
-            Console.WriteLine(jregular[0][0]);
+            for (int i = 0; i < jregular.Length; i++)
+            {
+                for (int j = 0; j < jregular[i].Length; j++)
+                {
+                    Console.WriteLine("{0}{1} = {1}", i, j, jregular[i][j]);
+                }
+
+            }
 
 
         }
