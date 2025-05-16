@@ -20,6 +20,17 @@ namespace Polymorphism
 
             Auto autos2 = new BMW("Califo","Mamas",1,"black");
             autos2.ShowDetails();
+
+            List<Auto> autos3 = new List<Auto>()
+            {
+                new BMW("sd","fa",1,"fsa")
+            };
+
+            for (int i = 0; i < autos3.Count; i++)
+            {
+                autos3 [i].ShowDetails();
+            }
+
         }
     }
 }
