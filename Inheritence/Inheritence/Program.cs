@@ -12,7 +12,11 @@ namespace Inheritence
         {
             Publish publish = new Publish("Harry Potter","Caterina Aster",true);
             Console.WriteLine(publish.ToString());
-            
+
+            // Inheritence class
+            Console.WriteLine("=====================================");
+            ImagePost imagePost = new ImagePost("Mario Bros","Hideo Kojima",true,"https://www.google.com");
+            Console.WriteLine(imagePost.ToString());
         }
     }
 }
