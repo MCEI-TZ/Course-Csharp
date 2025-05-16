@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -91,6 +92,30 @@ namespace Arrays
                     Console.WriteLine("{0}{1} = {1}", i, j, jregular[i][j]);
                 }
 
+            }
+
+            // ---------------------------------------------------------------------
+            // Array List Example
+            Console.WriteLine("-------------------------------------------------");
+            ArrayList arrayList = new ArrayList();
+            // Adding elements to the arraylist
+            arrayList.Add("Hola");
+            arrayList.Add(1);
+            arrayList.Add(true);
+            arrayList.Add(false);
+
+            // Count how many elements have the arraylist
+            Console.WriteLine(arrayList.Count);
+
+            // Removing an element from the arrayList
+            arrayList.Remove(false);
+
+            // Removing by an index
+            arrayList.RemoveAt(0);
+
+            foreach (var item in arrayList)
+            {
+                Console.WriteLine(item);
             }
 
 
