@@ -14,18 +14,35 @@ namespace Inheritence
         protected int ID { get; set; }
         protected string Titulo { get; set; }
         protected string Autor { get; set; }
-        protected string IsPublic { get; set; }
+        protected bool IsPublic { get; set; }
 
         // Void Constructor
         public Publish() { }
 
         // Return Constructor
-        public Publish(int iD, string titulo, string autor, string isPublic)
+        public Publish(string titulo, string autor, bool isPublic)
         {
-            ID = iD;
+            ID = GeneratedID();
             Titulo = titulo ?? throw new ArgumentNullException(nameof(titulo));
             Autor = autor ?? throw new ArgumentNullException(nameof(autor));
-            IsPublic = isPublic ?? throw new ArgumentNullException(nameof(isPublic));
+            IsPublic = isPublic;
+        }
+
+        protected int GeneratedID()
+        {
+            return ++publicacionId;
+        }
+
+        public void Edit(string titulo, string autor, bool isPublic)
+        {
+            this.Titulo = titulo;
+            this.Autor = autor;
+            this.IsPublic = isPublic;
+        }
+
+        public override string ToString()
+        {
+            return String.Format("Titulo: {0} \nAutor: {1} \nPublico: {2}",Titulo,Autor,IsPublic);
         }
 
     }

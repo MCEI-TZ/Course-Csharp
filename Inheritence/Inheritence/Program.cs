@@ -10,6 +10,9 @@ namespace Inheritence
     {
         static void Main(string[] args)
         {
+            Publish publish = new Publish("Harry Potter","Caterina Aster",true);
+            Console.WriteLine(publish.ToString());
+            
         }
     }
 }
